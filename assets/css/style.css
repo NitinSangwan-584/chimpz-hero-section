@@ -34,9 +34,6 @@ li {
 
 .nav-link {
     font-family: "Fira Sans", system-ui;
-    font-size: 16px !important;
-    font-weight: 400 !important;
-    line-height: 24px;
     text-align: left;
     color: #FFFFFF;
 }
@@ -46,14 +43,11 @@ li {
 }
 
 .navbar-toggler {
-    background-color: white !important;
+    background-color: rgba(191, 185, 185, 0.441) !important;
 }
 
 .btn {
     font-family: "Dela Gothic One", sans-serif !important;
-    font-size: 16px !important;
-    font-weight: 400 !important;
-    line-height: 23.17px !important;
     text-align: left !important;
     color: #FFFFFF !important;
     background-color: #FFC20A !important;
@@ -94,24 +88,43 @@ li {
 .fira-sans-family {
     font-family: "Fira Sans", system-ui;
 }
-.blur{
-      backdrop-filter: blur(3px);
+
+.blur {
+    backdrop-filter: blur(3px);
 }
 
 @media (max-width:991.98px) {
     .svg-nav {
         flex-direction: row !important;
         gap: 20px;
+        margin-right: 60px;
     }
 
     .btn {
         margin-top: 10px;
+    }
+
+    .justify-center {
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        right: 20px;
     }
 }
 
 @media (min-width:992px) {
     .btn {
         margin-left: 30px;
-
     }
+}
+
+@media (max-width:575.98px) {
+    .fs {
+        font-size: 40px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
 }
