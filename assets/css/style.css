@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.bg-img {
+    background-image: url(../img/jungle-background-forest-nature-scene-futuristic-generative-ai\ 1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.lh-76 {
+    line-height: 76.8px;
+}
+
+.leading-24 {
+    line-height: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-link-text {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.nav-link {
+    font-family: "Fira Sans", system-ui;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.navbar-toggler:active {
+    background-color: white !important;
+}
+
+.navbar-toggler {
+    background-color: white !important;
+}
+
+.btn {
+    font-family: "Dela Gothic One", sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 23.17px !important;
+    text-align: left !important;
+    color: #FFFFFF !important;
+    background-color: #FFC20A !important;
+    border-radius: 36px !important;
+    padding: 14px 32px;
+    margin-right: auto;
+}
+
+.btn:hover {
+    color: #FFC20A !important;
+    background-color: white !important;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.roboto-family {
+    font-family: "Roboto", sans-serif;
+}
+
+.exo-2-family {
+    font-family: "Exo 2", system-ui;
+}
+
+.fira-sans-family {
+    font-family: "Fira Sans", system-ui;
+}
+.blur{
+      backdrop-filter: blur(3px);
+}
+
+@media (max-width:991.98px) {
+    .svg-nav {
+        flex-direction: row !important;
+        gap: 20px;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width:992px) {
+    .btn {
+        margin-left: 30px;
+
+    }
+}
